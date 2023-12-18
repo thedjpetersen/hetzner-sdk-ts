@@ -85,7 +85,7 @@ import { OpenAPI, ServersService } from "hetzner-sdk-ts";
 OpenAPI.TOKEN = apiKey;
 
 // Get a list of all servers
-const { servers } = await ServersService.listServers();
+const { servers } = await ServersService.getServers({});
 ```
 
 <!-- CONTRIBUTING -->
