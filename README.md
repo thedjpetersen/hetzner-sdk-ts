@@ -75,6 +75,16 @@ npm install hetzner-sdk-ts
 
 ## Usage
 
+```typescript
+import { OpenAPI, ServersService } from "hetzner-sdk-ts";
+
+// Set the API key - this will apply globally to all requests
+OpenAPI.TOKEN = apiKey;
+
+// Get a list of all servers
+const { servers } = await ServersService.listServers();
+```
+
 <!-- CONTRIBUTING -->
 
 ## Contributing
