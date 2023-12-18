@@ -74,6 +74,8 @@ npm install hetzner-sdk-ts
 
 ## API
 
+I'd like to exhaustively output types and API definitions here or in an accompanying document. The easiest way to look at the API is just to read the documentation and use the corresponding methods that are generated or you can look through the [generated output](https://www.npmjs.com/package/hetzner-sdk-ts?activeTab=code).
+
 ## Usage
 
 ```typescript
