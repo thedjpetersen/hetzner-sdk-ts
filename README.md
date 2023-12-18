@@ -13,12 +13,12 @@
     <img src="images/hetzner-sdk.png" alt="Logo" width="250" height="250">
   </a>
 
-# My Project
+# Hetzner Typescript SDK
 
-<h3 align="center">Hetzner Typescript SDK</h3>
+<h3 align="center">A javascript and client for interacting with the Hetzner API</h3>
 
   <p align="center">
-    A Typescript SDK for the Hetzner Cloud API
+    Leveraging the OpenAPI definitions to gracefully generate a client on a regular cadence
     <br />
     <a href="https://github.com/thedjpetersen/flow-like-water"><strong>Explore the docs »</strong></a>
     <br />

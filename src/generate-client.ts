@@ -10,7 +10,7 @@ const GENERATED_CLIENT_DIR: string = path.join(__dirname, "generated-client");
  * Downloads the OpenAPI specification from a given URL.
  * @returns {Promise<any>} The OpenAPI specification as a JSON object.
  */
-async function downloadSpec(): Promise<any> {
+export async function downloadSpec(): Promise<any> {
   try {
     const response = await fetch(SPEC_URL);
     return await response.json();
@@ -25,7 +25,7 @@ async function downloadSpec(): Promise<any> {
  * @param {any} newSpec - The newly downloaded OpenAPI specification.
  * @returns {boolean} True if the specification has changed, false otherwise.
  */
-function hasSpecChanged(newSpec: any): boolean {
+export function hasSpecChanged(newSpec: any): boolean {
   if (fs.existsSync(SPEC_PATH)) {
     const existingSpec: string = fs.readFileSync(SPEC_PATH, "utf8");
     return JSON.stringify(existingSpec) !== JSON.stringify(newSpec);
@@ -37,7 +37,7 @@ function hasSpecChanged(newSpec: any): boolean {
  * Generates a TypeScript client based on the given OpenAPI specification.
  * @param {any} spec - The OpenAPI specification.
  */
-async function generateClient(spec: any): Promise<void> {
+export async function generateClient(spec: any): Promise<void> {
   await OpenAPI.generate({
     input: SPEC_PATH,
     output: GENERATED_CLIENT_DIR,
@@ -50,7 +50,7 @@ async function generateClient(spec: any): Promise<void> {
 /**
  * Main function to orchestrate downloading, comparing, and generating client.
  */
-async function main(): Promise<void> {
+export async function main(): Promise<void> {
   try {
     const newSpec = await downloadSpec();
 
