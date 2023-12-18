@@ -15,10 +15,10 @@
 
 # Hetzner Typescript SDK
 
-<h3 align="center">A javascript and client for interacting with the Hetzner API</h3>
+<h3 align="center">Javascript client for interacting with the Hetzner API</h3>
 
   <p align="center">
-    Leveraging the OpenAPI definitions to gracefully generate a client on a regular cadence
+    Leveraging the OpenAPI definitions to gracefully generate a client on a regular cadence - also generates typescript types for the API
     <br />
     <a href="https://github.com/thedjpetersen/hetzner-sdk-ts"><strong>Explore the docs »</strong></a>
     <br />
