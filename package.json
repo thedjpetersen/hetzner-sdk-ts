@@ -1,8 +1,8 @@
 {
   "name": "hetzner-sdk-ts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Generated TypeScript SDK for Hetzner Cloud API",
+  "main": "lib/index.js",
   "scripts": {
     "build": "node -r tsm src/generate-client.ts && tsc",
     "test": "jest",
