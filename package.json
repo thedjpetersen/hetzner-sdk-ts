@@ -1,6 +1,6 @@
 {
   "name": "hetzner-sdk-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generated TypeScript SDK for Hetzner Cloud API",
   "main": "lib/index.js",
   "scripts": {
