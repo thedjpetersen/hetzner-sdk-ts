@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/thedjpetersen/flow-like-water">
+  <a href="https://github.com/thedjpetersen/hetzner-sdk-ts">
     <img src="images/hetzner-sdk.png" alt="Logo" width="250" height="250">
   </a>
 
@@ -20,11 +20,11 @@
   <p align="center">
     Leveraging the OpenAPI definitions to gracefully generate a client on a regular cadence
     <br />
-    <a href="https://github.com/thedjpetersen/flow-like-water"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/thedjpetersen/hetzner-sdk-ts"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/thedjpetersen/flow-like-water/issues">Report Bug</a>
+    <a href="https://github.com/thedjpetersen/hetzner-sdk-ts/issues">Report Bug</a>
     ·
-    <a href="https://github.com/thedjpetersen/flow-like-water/issues">Request Feature</a>
+    <a href="https://github.com/thedjpetersen/hetzner-sdk-ts/issues">Request Feature</a>
   </p>
 </div>
