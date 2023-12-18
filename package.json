@@ -1,0 +1,24 @@
+{
+  "name": "hetzner-sdk-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node -r tsm src/generate-client.ts && tsc",
+    "test": "jest",
+    "coverage": "jest --coverage --coverageReporters=\"json-summary\"",
+    "generate-badge-data": "node -r tsm scripts/generate-badge-data.ts",
+    "update-readme": "node -r tsm scripts/update-readme.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "openapi-typescript-codegen": "^0.25.0",
+    "ts-jest": "^29.1.1",
+    "tsm": "^2.3.0",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,10 @@
+.env
+
+# Ignore the spec file
+src/hetzner-cloud-spec.json
+src/generated-client/
+
+# Basic modules which we expect to be ignored
+coverage/
+node_modules/
+lib/
