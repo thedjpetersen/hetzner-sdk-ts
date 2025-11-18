@@ -8,3 +8,10 @@ src/generated-client/
 coverage/
 node_modules/
 lib/
+
+# GitHub Actions workflows (temporarily ignored due to push restrictions)
+# These need to be added manually - see GITHUB_ACTIONS_SETUP.md
+.github/workflows/
+
+# Temporary helper scripts
+create-pr.sh

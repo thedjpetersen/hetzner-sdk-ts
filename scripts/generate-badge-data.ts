@@ -11,7 +11,7 @@ const badges: {
   color: string;
 }[] = [];
 
-function determineColor(coverage) {
+function determineColor(coverage: number): string {
   if (coverage >= 80) {
     return "green";
   } else if (coverage >= 50) {
