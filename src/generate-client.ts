@@ -28,7 +28,7 @@ export async function downloadSpec(): Promise<any> {
 export function hasSpecChanged(newSpec: any): boolean {
   if (fs.existsSync(SPEC_PATH)) {
     const existingSpec: string = fs.readFileSync(SPEC_PATH, "utf8");
-    return JSON.stringify(existingSpec) !== JSON.stringify(newSpec);
+    return existingSpec !== JSON.stringify(newSpec);
   }
   return true;
 }
