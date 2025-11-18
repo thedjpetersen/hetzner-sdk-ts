@@ -1,4 +1,4 @@
-function processString(str) {
+function processString(str: string): string {
   return str.replace(/-/g, "--").replace(/_/g, "__");
 }
 
